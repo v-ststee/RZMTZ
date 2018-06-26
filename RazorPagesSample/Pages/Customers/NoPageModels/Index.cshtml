@@ -1,0 +1,78 @@
+﻿@page "{handler?}/{id:int?}"
+
+@inject AppDbContext Db
+
+@functions {
+    public IList<Customer> Customers { get; private set; }
+
+    [TempData]
+    public string Message { get; set; }
+
+    public bool ShowMessage => !string.IsNullOrEmpty(Message);
+
+    public async Task<IActionResult> OnGetAsync()
+    {
+        Customers = await Db.Customers.AsNoTracking().ToListAsync();
+
+        return Page();
+    }
+
+    public async Task<IActionResult> OnPostDeleteAsync(int id)
+    {
+        var customer = await Db.Customers.FindAsync(id);
+
+        if (customer != null)
+        {
+            Db.Customers.Remove(customer);
+            await Db.SaveChangesAsync();
+        }
+
+        Message = $"Customer {id} deleted successfully";
+
+        return RedirectToPage();
+    }
+}
+
+@{
+    ViewData["Title"] = "Customers";
+}
+
+<h1>Customers</h1>
+<p>
+    <div asp-if="ShowMessage" class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        @Message
+    </div>
+</p>
+<form method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <th asp-display-name-for="Customers[0].Id"></th>
+                <th asp-display-name-for="Customers[0].Name"></th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr asp-if="Customers.Count == 0">
+                <td colspan="3">No customers yet.</td>
+            </tr>
+            @foreach (var customer in Customers)
+            {
+                <tr>
+                    <td asp-display-for="@customer.Id"></td>
+                    <td asp-display-for="@customer.Name"></td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@customer.Id" class="btn btn-xs btn-primary">edit</a>
+                        <button type="submit" asp-page-handler="delete" asp-route-id="@customer.Id" class="btn btn-xs btn-danger">delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a asp-page="./New" class="btn btn-sm btn-success">Create</a>
+
+    Hello World!
+
+</form>

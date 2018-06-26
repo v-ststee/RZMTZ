@@ -1,0 +1,12 @@
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\bin\Release\netcoreapp2.0\RazorPagesSample.deps.json
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\bin\Release\netcoreapp2.0\RazorPagesSample.runtimeconfig.json
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\bin\Release\netcoreapp2.0\RazorPagesSample.runtimeconfig.dev.json
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\bin\Release\netcoreapp2.0\RazorPagesSample.dll
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\bin\Release\netcoreapp2.0\RazorPagesSample.pdb
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\obj\Release\netcoreapp2.0\RazorPagesSample.csprojAssemblyReference.cache
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\obj\Release\netcoreapp2.0\RazorPagesSample.csproj.CoreCompileInputs.cache
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\obj\Release\netcoreapp2.0\RazorPagesSample.AssemblyInfoInputs.cache
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\obj\Release\netcoreapp2.0\RazorPagesSample.AssemblyInfo.cs
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\obj\Release\netcoreapp2.0\RazorPagesSample.dll
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesSample\obj\Release\netcoreapp2.0\RazorPagesSample.pdb

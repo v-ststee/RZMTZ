@@ -1,0 +1,5 @@
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesWebApplication\obj\Debug\netcoreapp2.0\RazorPagesWebApplication.csprojAssemblyReference.cache
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesWebApplication\obj\Debug\netcoreapp2.0\RazorPagesWebApplication.csproj.CoreCompileInputs.cache
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesWebApplication\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesWebApplication\obj\Debug\netcoreapp2.0\RazorPagesWebApplication.AssemblyInfoInputs.cache
+C:\Users\kaisersoze\Source\Repos\RazorPagesSample\RazorPagesWebApplication\obj\Debug\netcoreapp2.0\RazorPagesWebApplication.AssemblyInfo.cs
