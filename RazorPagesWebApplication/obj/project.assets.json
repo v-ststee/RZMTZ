@@ -12569,17 +12569,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kaisersoze\\Source\\Repos\\RazorPagesSample\\RazorPagesWebApplication\\RazorPagesWebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\kaisersoze\\Source\\Repos\\RZMTZ\\RazorPagesWebApplication\\RazorPagesWebApplication.csproj",
       "projectName": "RazorPagesWebApplication",
-      "projectPath": "C:\\Users\\kaisersoze\\Source\\Repos\\RazorPagesSample\\RazorPagesWebApplication\\RazorPagesWebApplication.csproj",
+      "projectPath": "C:\\Users\\kaisersoze\\Source\\Repos\\RZMTZ\\RazorPagesWebApplication\\RazorPagesWebApplication.csproj",
       "packagesPath": "C:\\Users\\kaisersoze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kaisersoze\\Source\\Repos\\RazorPagesSample\\RazorPagesWebApplication\\obj\\",
+      "outputPath": "C:\\Users\\kaisersoze\\Source\\Repos\\RZMTZ\\RazorPagesWebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kaisersoze\\Source\\Repos\\RazorPagesSample\\NuGet.Config",
+        "C:\\Users\\kaisersoze\\Source\\Repos\\RZMTZ\\NuGet.Config",
         "C:\\Users\\kaisersoze\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
